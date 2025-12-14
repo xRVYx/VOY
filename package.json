@@ -1,0 +1,16 @@
+{
+  "name": "voy",
+  "version": "0.1.0",
+  "description": "VOY is a minimal integrity helper for monitoring suspicious interactions in educational or professional web setups",
+  "type": "module",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --eval \"console.log('No tests yet; import the module to run it in a browser.')\""
+  },
+  "keywords": ["voy", "monitoring", "education", "exam", "integrity"],
+  "author": "",
+  "files": [
+    "src"
+  ]
+}
