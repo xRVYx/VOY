@@ -5,7 +5,7 @@
 ## Quick start
 
 ```js
-import { createVoy } from 'voy';
+import { createVoy } from 'voy-rvy';
 
 const voy = createVoy({
   onDetection({ type, detail, state }) {
@@ -22,13 +22,13 @@ voy.start();
 ## Step-by-step usage
 
 1. **Install VOY** in your project:
-   ```bash
-   npm install voy
+```bash
+npm install voy-rvy
    ```
 
 2. **Import and configure** the factory before your secure session begins:
    ```js
-   import { createVoy } from 'voy';
+  import { createVoy } from 'voy-rvy';
 
    const voy = createVoy({
      scramblePaste: true,          // optional: shuffle every paste
@@ -106,7 +106,7 @@ Any detection fires the user-provided `onDetection` callback with
 ## Telemetry hooks
 
 ```js
-import { createVoy } from 'voy';
+  import { createVoy } from 'voy-rvy';
 
 const sendTelemetry = (payload) => {
   navigator.sendBeacon(process.env.VOY_TELEMETRY_ENDPOINT || '/api/cheat', JSON.stringify(payload));

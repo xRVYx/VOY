@@ -1,5 +1,5 @@
 {
-  "name": "voy",
+  "name": "voy-rvy",
   "version": "0.1.0",
   "description": "VOY is a minimal integrity helper for monitoring suspicious interactions in educational or professional web setups",
   "type": "module",
